@@ -1,0 +1,50 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+      /* color por defecto background-color: #007BFF;*/
+    color: white;
+    border: none;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+    .uno {
+    background-color: #C100B6;
+
+    &:hover{
+                background-color: #99008E;
+            }
+    }
+
+    .dos {
+    background-color: #78CA00;
+
+    &:hover{
+                background-color: #5d9b00;
+            }
+    }
+
+  /*.button:hover {
+    background-color: #0056b3;
+  }*/
+
